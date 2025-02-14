@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+}
+.container{
+    width:  100%;
+    display: grid;
+    gap: 50px;
+}
+   
+.box1{
+    width:100%;
+    height: 600px;
+    background-image: url(mobile/image-hero.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.home{
+    display: none;
+}
+.head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+.icon1{
+    height: 30px;
+    width: 130px;
+}
+.icon2{
+    width: 20px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+.h1{
+    border: 2px solid white;
+    width: 330px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.that{
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.box2{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.image2{
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 330px;
+}
+.h2, .h2a{
+    font-size: 35px;
+    margin-left:15px;
+    margin-bottom: 10px;
+}
+.par{
+    font-size: 18px;
+    color: hsl(0, 0%, 55%);
+    margin-left: 15px;
+}
+.box4{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    padding: 9px;
+    font-size: 19px;
+}
+.image4{
+    margin-bottom: 10px;
+}
+.footer{
+    color: rgb(92, 54, 61);
+    font-size: 19px;
+    margin-top: 20px;
+    
+}
+.icon4{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 40px;
+}
+.icons{
+    margin-right: 20px;
+}
+.see{
+    border: 2px solid rgb(32, 28, 25);
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.image{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    width: 350px;
+    height: 150px;
+    margin-left: 30px;
+}
+.imag1, .imag2, .imag3, .imag4, .imag5, .imag6, .imag7, .imag8{
+    display: none;
+}
+.test {
+    color: white;
+    font-size: 20x;
+    padding: 60px;
+    padding-top:100px
+}
+.the{
+    margin-left: 10px;
+}
+.h2a{
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.about{
+    margin-left: 60px;
+}
+.box3i{
+    position: relative;
+    height: 180px;
+    width: 100px;
+}
+
+@media (min-width: 765px){
+    .box1{
+        height: 750px;
+        width:1350px;
+       }
+    .icon2{
+        display: none;
+    }
+    .icon1{
+        width: 300px;
+        height: 60px;
+    }
+    .head{
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .home{
+        display: flex;
+        align-items:center;
+        justify-content:space-evenly;
+        width: 600px;
+        font-size: 2px;
+    }
+    .s{
+        color: white;
+        font-size: 25px;
+    }
+    .h1{
+        width: 470px;
+        height: 230px;
+        margin-left:100px;
+    }
+    .that{
+        font-size: 60px;
+    }
+    .image{
+        display: none;
+    }
+    .box2{
+        width: 1200px;
+        height: 900px;
+    }
+    .image2{
+        width: 600px;
+        height: 400px;
+        margin-left: -150px;
+    }
+    .part{
+        background-color: white;
+        width: 400px;
+        height: 300px;
+        margin-top: -250px;
+        margin-left: 700px;
+    }
+    .h2{
+        margin-left: 90px;
+    }
+    .box3{
+        margin-top: -50px;
+        display:flex;
+        height: 1000px;
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+        
+
+
+    .box4{
+        width: 1350px;
+        height: 200px;
+        flex-direction: row;
+        font-size: 20px;
+        justify-content: space-around;
+    }
+    .mine{
+        display: flex;
+        flex-direction: column;
+    }
+    .end{
+        display: flex;
+        flex-direction: column;
+    }
+    .abt{
+        display: flex;
+        flex-direction: row;
+        margin-left: -20px;
+    }
+    .imag1,.imag2, .imag3, .imag4, .imag5, .imag5, .imag6,.imag7, .imag8{
+        height: 420px;
+        width: 250px;
+        display: flex;
+        padding-left: 70px;
+    }
+    .about{
+        margin-left: 15px;
+    }
+    .h2a{
+        font-size: 50px;
+    }
+    .see{
+        margin-top: -855px;
+        margin-left: -20px;
+        width: 150px;
+    }
+    .test{
+        color: black;
+        border:2px solid blue;
+        display: none;
+    }
+    
+    .test{
+        margin-top: 420px;
+    }
+
+     .imag2{
+         margin-top: -298px;
+         margin-left: 275px;
+    }
+    
+    .imag3{
+        margin-top: 128px;
+        margin-left: -75px;
+    }
+     .imag4{
+        margin-top: -170px;
+        margin-left: 198px;
+    }
+   .imag6{
+        margin-top: 575px;
+        margin-left: -713px;
+    }
+    .imag5{
+        margin-top: -25px;
+        margin-left: -625px;
+    }
+     .imag7{
+        margin-top: 275px;
+        margin-left: -438px;
+    }
+    .imag8{
+        margin-top: -25px;
+        margin-left: -165px;
+    }
+    .box3{
+        padding-bottom: 40px;
+    }
+    
+    .box3i{
+        height: 300px;
+        width: 200px;
+    }
+}
